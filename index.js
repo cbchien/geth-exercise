@@ -17,9 +17,6 @@ var web3 = new Web3(Web3.givenProvider);
 web3.setProvider(new web3.providers.HttpProvider('http://localhost:8545'));
 web3Admin.extend(web3)
 
-// test for variables 
-// var nodeInfo = web3.admin.nodeInfo;
-
 // load in environment variables, if needed
 dotenv.config({ verbose: true});
 
@@ -41,5 +38,4 @@ app.listen(port, function(){
     } else {
         console.log("web3 is connected");
     }
-    // console.log('nodeInfo ' + JSON.stringify(web3.version, null, 4))
 })
