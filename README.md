@@ -10,13 +10,17 @@ This is an exercise using Go-ethereum, JSON RPC API, and Web.js LOCALLY.
 ## Run the following commonads after setting up Golang,
 
 `cd PATH-TO-GETH-PROJECT-FOLDER`
+
 `geth --rpc --rpcport 8545 --rpcaddr 0.0.0.0 --rpccorsdomain --rpcapi "eth,web3" --ipcapi "admin,web3"`
 
 ## Run on a separate command line
 `cd PATH-TO-THIS-REPOSITORY-PROJECT`
+
 `npm run start`
 
 ## APIs
 /node                                  # list all jobs
+
 /block/{block_number}                  # list all jobs
+
 /transaction/{transation_hash}         # list all jobs
