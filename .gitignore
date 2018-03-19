@@ -1,0 +1,8 @@
+# automatically generated debug files by npm
+npm-debug.log
+
+# packages from npm registry
+node_modules/
+
+# sensitive data like API keys or secrets
+.env
