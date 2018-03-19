@@ -42,5 +42,4 @@ app.listen(port, function(){
         console.log("web3 is connected");
     }
     // console.log('nodeInfo ' + JSON.stringify(web3.version, null, 4))
-    // console.log('version ' + JSON.stringify(version, null, 4))
 })
