@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "nodemon index.js"
   },
   "keywords": [],
   "author": "Brian Chien",
@@ -16,7 +16,9 @@
     "dotenv": "^4.0.0",
     "express": "^4.15.3",
     "morgan": "^1.8.2",
-    "nodemon": "^1.11.0",
-    "web3": "0.20.6"
+    "nodemon": "^1.17.2",
+    "web3": "0.20.6",
+    "web3_extended": "^1.0.0",
+    "web3admin": "^0.4.4"
   }
 }
