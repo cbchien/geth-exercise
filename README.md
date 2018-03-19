@@ -15,7 +15,9 @@ This is an exercise using Go-ethereum, JSON RPC API, and Web.js LOCALLY.
 
 ## Run on a separate command line
 `git clone https://github.com/cbchien/geth-exercise.git`
+
 `npm install`
+
 `cd PATH-TO-THIS-REPOSITORY-PROJECT`
 
 `npm run start`
