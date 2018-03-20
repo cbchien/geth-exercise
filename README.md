@@ -1,5 +1,5 @@
 # Go-ethereum Exercise
-This is an exercise using Go-ethereum, JSON RPC API, and Web.js LOCALLY.
+This is an exercise using Go-ethereum, JSON RPC API, and Web.js *LOCALLY*.
 
 ## Follow the resources to set up geth
 [Go-ethereum (geth)](https://github.com/ethereum/go-ethereum/)
@@ -13,18 +13,19 @@ This is an exercise using Go-ethereum, JSON RPC API, and Web.js LOCALLY.
 
 `geth --rpc --rpcport 8545 --rpcaddr 0.0.0.0 --rpccorsdomain --rpcapi "eth,web3" --ipcapi "admin,web3"`
 
-## Run on a separate command line
+## Run on a separate command line interface
 `git clone https://github.com/cbchien/geth-exercise.git`
 
-`npm install`
-
 `cd PATH-TO-THIS-REPOSITORY-PROJECT`
+
+`npm install`
 
 `npm run start`
 
 ## APIs
-/node                                  # list all jobs
+API can be access through `localhost:8000/{api}`
+`/node`                                  # return node information
 
-/block/{block_number}                  # list all jobs
+`/block/{block_number}`                  # return block information base on block number
 
-/transaction/{transation_hash}         # list all jobs
+`/transaction/{transation_hash}`         # return transaction information base on hash
